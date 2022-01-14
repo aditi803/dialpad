@@ -1,0 +1,89 @@
+body{
+    background-color: #1976d2;
+}
+
+
+  .row {
+    margin: 0 auto;
+    width: 280px;
+    clear: both;
+    text-align: center;
+    font-family: 'Exo';
+  }
+  
+  .digit,
+  .dig {
+    float: left;
+    padding: 10px 30px;
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .digit:hover{
+      background:rgb(200, 202, 202);
+      border: 2px solid rgb(209, 204, 204);
+      border-radius: 15px;
+  }
+  .sub {
+    font-size: 0.8rem;
+    color: grey;
+  }
+  
+  .container {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(150, 155, 165, 0.75);
+    border-radius: 12px;
+    width: (100%-30%);
+    position: absolute;
+    left: 40%;
+    height: 450px;
+    top: 20%;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  
+  #output {
+    font-family: "Exo";
+    font-size: 2rem;
+    height: 60px;
+    font-weight: bold;
+    color: #101214;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  
+  #call {
+    display: inline-block;
+    background-color: #66bb6a;
+    padding: 4px 30px;
+    margin: 10px;
+    color: white;
+    border-radius: 4px;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .botrow {
+    margin: 0 auto;
+    width: 280px;
+    clear: both;
+    text-align: center;
+    font-family: 'Exo';
+  }
+  
+  .digit:active,
+  .dig:active {
+    background-color: #e6e6e6;
+  }
+  
+  #call:hover {
+    background-color: #81c784;
+  }
+  
+  .dig {
+    float: left;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 30px;
+    cursor: pointer;
+  }
